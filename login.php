@@ -2,6 +2,7 @@
 session_start();
 require_once __DIR__ . '/classes/Database.php';
 
+
 $errors = [];
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -66,3 +67,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p><a href="index.php">Back to home</a></p>
 </body>
 </html>
+
